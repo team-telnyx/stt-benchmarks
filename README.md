@@ -14,7 +14,7 @@ This repo contains:
 
 Scribe and Telnyx's engines are good at different things, so no single engine wins everything.
 
-- **Telnyx streaming engines return words sooner on live calls.** Median time to first words was 1.0 s for Flux and 1.3 s for Nova-3, against 2.1 s for Scribe v2 Realtime.
+- **Flux, Nova-3, Soniox and Speechmatics Standard return first words sooner on live calls.** Median time to first words was 1.0 s for Flux and 1.3 s for the other three, against 2.1 s for Scribe v2 Realtime. Azure Fast, Grok STT and Universal 3.5 Pro start slower than Scribe, at 3.3 to 4.0 s.
 - **Most Telnyx engines get one-word replies right more often.** On 147 short replies ("yes", "no", single letters, numbers), Flux got 85% right and Scribe v2 Realtime got 67%. Nine of the 11 Telnyx streaming engines scored higher than Scribe, one tied, and one scored lower.
 - **Nova-3 finishes its slowest turns sooner.** For the slowest 1 in 10 turns, the final transcript arrived in 0.93 s on Nova-3 and 1.32 s on Scribe v2 Realtime. Flux went the other way, at 2.36 s.
 - **Medical phone calls are close to even.** Nova-3 Medical got 16.4 words wrong per 100 and Scribe v2 Realtime got 17.3, on 90 lines. A gap that small is inside the noise for a sample this size.
