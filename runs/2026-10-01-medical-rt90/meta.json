@@ -1,0 +1,23 @@
+{
+ "dataset": "primock57",
+ "subset": "rt90",
+ "n_clips": 1397,
+ "audio_seconds": 5598.36,
+ "clip_list_sha256": "1fa05c3b2281994b9da537dda81c458b517f9a4577fff077e86bea24d69e7d31",
+ "prices_per_hour": {
+  "elevenlabs/scribe_v2": 0.22,
+  "elevenlabs/scribe_v2_medical": 0.22,
+  "elevenlabs/scribe_v2_realtime": 0.39,
+  "telnyx/deepgram": 0.3,
+  "telnyx/assemblyai": 0.3,
+  "telnyx/speechmatics": 0.21,
+  "telnyx/soniox": 0.12,
+  "telnyx/parakeet": 0.09,
+  "telnyx/whisper": 0.8999999999999999,
+  "telnyx/xai": 0.198,
+  "telnyx/azure": 1.6199999999999999,
+  "omi/batch": 0.29,
+  "omi/live": 0.45
+ },
+ "created": 1790908471.6886332
+}

@@ -1,0 +1,864 @@
+{
+ "all": {
+  "el-scribe_v2": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.053465009364890174,
+   "wer_ci95": [
+    0.03929916489274603,
+    0.06882395556628834
+   ],
+   "wer_ok_only": 0.053465009364890174,
+   "sub_rate": 0.026562233951983653,
+   "del_rate": 0.01481355355014473,
+   "ins_rate": 0.012089221862761792,
+   "term_recall": 0.923728813559322,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 95,
+     "total": 101,
+     "recall": 0.9405940594059405
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 10,
+     "total": 13,
+     "recall": 0.7692307692307693
+    }
+   },
+   "num_recall": 0.9464285714285714,
+   "num_total": 56,
+   "lid_judged": 341,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "wall_p50": 0.682,
+   "lang": "en",
+   "engine": "el-scribe_v2",
+   "lane": "batch",
+   "vendor": "elevenlabs",
+   "model": "scribe_v2",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.22,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "el-scribe_v2_medical": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.05295419717350588,
+   "wer_ci95": [
+    0.03797083839611179,
+    0.06946953522745936
+   ],
+   "wer_ok_only": 0.05295419717350588,
+   "sub_rate": 0.02400817299506215,
+   "del_rate": 0.02077302911629491,
+   "ins_rate": 0.008172995062148816,
+   "term_recall": 0.923728813559322,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 95,
+     "total": 101,
+     "recall": 0.9405940594059405
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 10,
+     "total": 13,
+     "recall": 0.7692307692307693
+    }
+   },
+   "num_recall": 0.9464285714285714,
+   "num_total": 56,
+   "lid_judged": 338,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "wall_p50": 0.524,
+   "lang": "en",
+   "engine": "el-scribe_v2_medical",
+   "lane": "batch",
+   "vendor": "elevenlabs",
+   "model": "scribe_v2_medical",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.22,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "el-scribe_v2_realtime": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.06436233611442194,
+   "wer_ci95": [
+    0.046693694953166505,
+    0.0813315679969737
+   ],
+   "wer_ok_only": 0.06436233611442194,
+   "sub_rate": 0.03609739485782394,
+   "del_rate": 0.01481355355014473,
+   "ins_rate": 0.013451387706453261,
+   "term_recall": 0.8983050847457628,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 91,
+     "total": 101,
+     "recall": 0.900990099009901
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 11,
+     "total": 13,
+     "recall": 0.8461538461538461
+    }
+   },
+   "num_recall": 0.9642857142857143,
+   "num_total": 56,
+   "lid_judged": 342,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 1,
+   "ttfp_p50": 1.716,
+   "ttfp_p90": 1.921,
+   "final_p50": 0.526,
+   "final_p90": 0.673,
+   "final_from_audio_end_p50": 0.162,
+   "first_kind": {
+    "partial": 354,
+    "final": 171
+   },
+   "lang": "en",
+   "engine": "el-scribe_v2_realtime",
+   "lane": "realtime",
+   "vendor": "elevenlabs",
+   "model": "scribe_v2_realtime",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.39,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "tx-nova-3": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 2,
+   "failure_rate": 0.0038,
+   "wer": 0.0803677847777967,
+   "wer_ci95": [
+    0.06579576230683447,
+    0.09460008120178644
+   ],
+   "wer_ok_only": 0.07722535451905006,
+   "sub_rate": 0.04018389238889835,
+   "del_rate": 0.028435211987059426,
+   "ins_rate": 0.011748680401838924,
+   "term_recall": 0.864406779661017,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 90,
+     "total": 101,
+     "recall": 0.8910891089108911
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 8,
+     "total": 13,
+     "recall": 0.6153846153846154
+    }
+   },
+   "num_recall": 0.9285714285714286,
+   "num_total": 56,
+   "lid_judged": 341,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "wall_p50": 0.719,
+   "lang": "en",
+   "engine": "tx-nova-3",
+   "lane": "batch",
+   "vendor": "telnyx",
+   "model": "deepgram/nova-3",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.3,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "tx-nova-3-medical": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 3,
+   "failure_rate": 0.0057,
+   "wer": 0.08070832623871957,
+   "wer_ci95": [
+    0.0689920098340504,
+    0.09508778851844546
+   ],
+   "wer_ok_only": 0.07740943267259057,
+   "sub_rate": 0.03933253873659118,
+   "del_rate": 0.03422441682274817,
+   "ins_rate": 0.007151370679380214,
+   "term_recall": 0.8898305084745762,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 93,
+     "total": 101,
+     "recall": 0.9207920792079208
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 8,
+     "total": 13,
+     "recall": 0.6153846153846154
+    }
+   },
+   "num_recall": 0.8928571428571429,
+   "num_total": 56,
+   "lid_judged": 338,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "wall_p50": 0.703,
+   "lang": "en",
+   "engine": "tx-nova-3-medical",
+   "lane": "batch",
+   "vendor": "telnyx",
+   "model": "deepgram/nova-3-medical",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.3,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "tx-omi-med-stt-v1": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 13,
+   "failure_rate": 0.0248,
+   "wer": 0.09245700664055849,
+   "wer_ci95": [
+    0.07091757387247279,
+    0.1153125
+   ],
+   "wer_ok_only": 0.06818181818181818,
+   "sub_rate": 0.033373063170441,
+   "del_rate": 0.04631363868550996,
+   "ins_rate": 0.012770304784607526,
+   "term_recall": 0.864406779661017,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 91,
+     "total": 101,
+     "recall": 0.900990099009901
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 7,
+     "total": 13,
+     "recall": 0.5384615384615384
+    }
+   },
+   "num_recall": 0.8928571428571429,
+   "num_total": 56,
+   "lid_judged": 326,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "wall_p50": 2.147,
+   "lang": "en",
+   "engine": "tx-omi-med-stt-v1",
+   "lane": "batch",
+   "vendor": "telnyx",
+   "model": "omi-health/omi-med-stt-v1",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.09,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "tx-parakeet-v3": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 9,
+   "failure_rate": 0.0171,
+   "wer": 0.09160565298825132,
+   "wer_ci95": [
+    0.07528108196187062,
+    0.1119456882854254
+   ],
+   "wer_ok_only": 0.07233524604416623,
+   "sub_rate": 0.03694874851013111,
+   "del_rate": 0.03950280946705261,
+   "ins_rate": 0.015154095011067598,
+   "term_recall": 0.847457627118644,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 89,
+     "total": 101,
+     "recall": 0.8811881188118812
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 7,
+     "total": 13,
+     "recall": 0.5384615384615384
+    }
+   },
+   "num_recall": 0.875,
+   "num_total": 56,
+   "lid_judged": 338,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 2,
+   "wall_p50": 2.227,
+   "lang": "en",
+   "engine": "tx-parakeet-v3",
+   "lane": "batch",
+   "vendor": "telnyx",
+   "model": "nvidia/parakeet-v3",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.09,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "tx-whisper-large-v3-turbo": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 9,
+   "failure_rate": 0.0152,
+   "wer": 0.11901924059254214,
+   "wer_ci95": [
+    0.09115963536145856,
+    0.15065626783336503
+   ],
+   "wer_ok_only": 0.10854583046175052,
+   "sub_rate": 0.03320279243997957,
+   "del_rate": 0.07747318235995232,
+   "ins_rate": 0.00834326579261025,
+   "term_recall": 0.8305084745762712,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 88,
+     "total": 101,
+     "recall": 0.8712871287128713
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 6,
+     "total": 13,
+     "recall": 0.46153846153846156
+    }
+   },
+   "num_recall": 0.9285714285714286,
+   "num_total": 56,
+   "lid_judged": 336,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 5,
+   "wall_p50": 1.435,
+   "lang": "en",
+   "engine": "tx-whisper-large-v3-turbo",
+   "lane": "batch",
+   "vendor": "telnyx",
+   "model": "openai/whisper-large-v3-turbo",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.8999999999999999,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-flux": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.10028946024178444,
+   "wer_ci95": [
+    0.0874617737003058,
+    0.11374325030482495
+   ],
+   "wer_ok_only": 0.10028946024178444,
+   "sub_rate": 0.055848799591350244,
+   "del_rate": 0.033373063170441,
+   "ins_rate": 0.01106759747999319,
+   "term_recall": 0.8305084745762712,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 86,
+     "total": 101,
+     "recall": 0.8514851485148515
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 8,
+     "total": 13,
+     "recall": 0.6153846153846154
+    }
+   },
+   "num_recall": 0.9464285714285714,
+   "num_total": 56,
+   "lid_judged": 343,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "ttfp_p50": 0.774,
+   "ttfp_p90": 1.434,
+   "final_p50": 0.858,
+   "final_p90": 1.338,
+   "final_from_audio_end_p50": 0.506,
+   "first_kind": {
+    "partial": 520,
+    "null": 5
+   },
+   "lang": "en",
+   "engine": "txrt-flux",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "deepgram/flux",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.3,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-nova-3": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.08905159203132981,
+   "wer_ci95": [
+    0.07735321528424977,
+    0.1021217871312748
+   ],
+   "wer_ok_only": 0.08905159203132981,
+   "sub_rate": 0.04461093138089563,
+   "del_rate": 0.034054146092286734,
+   "ins_rate": 0.010386514558147455,
+   "term_recall": 0.8305084745762712,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 88,
+     "total": 101,
+     "recall": 0.8712871287128713
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 6,
+     "total": 13,
+     "recall": 0.46153846153846156
+    }
+   },
+   "num_recall": 0.9107142857142857,
+   "num_total": 56,
+   "lid_judged": 339,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "ttfp_p50": 1.001,
+   "ttfp_p90": 1.614,
+   "final_p50": 0.608,
+   "final_p90": 0.728,
+   "final_from_audio_end_p50": 0.229,
+   "first_kind": {
+    "final": 134,
+    "partial": 387,
+    "null": 4
+   },
+   "lang": "en",
+   "engine": "txrt-nova-3",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "deepgram/nova-3",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.3,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-nova-3-medical": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.08462455303933254,
+   "wer_ci95": [
+    0.0736859341738988,
+    0.09647100549742862
+   ],
+   "wer_ok_only": 0.08462455303933254,
+   "sub_rate": 0.03694874851013111,
+   "del_rate": 0.03745956070151541,
+   "ins_rate": 0.01021624382768602,
+   "term_recall": 0.8728813559322034,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 90,
+     "total": 101,
+     "recall": 0.8910891089108911
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 9,
+     "total": 13,
+     "recall": 0.6923076923076923
+    }
+   },
+   "num_recall": 0.9285714285714286,
+   "num_total": 56,
+   "lid_judged": 336,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "ttfp_p50": 0.999,
+   "ttfp_p90": 1.596,
+   "final_p50": 0.609,
+   "final_p90": 0.732,
+   "final_from_audio_end_p50": 0.227,
+   "first_kind": {
+    "final": 137,
+    "partial": 387,
+    "null": 1
+   },
+   "lang": "en",
+   "engine": "txrt-nova-3-medical",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "deepgram/nova-3-medical",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.3,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-omi-med-stt-v1": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.10165162608547591,
+   "wer_ci95": [
+    0.07861822513400833,
+    0.13310299440605464
+   ],
+   "wer_ok_only": 0.10165162608547591,
+   "sub_rate": 0.031670355865826665,
+   "del_rate": 0.05652988251319598,
+   "ins_rate": 0.013451387706453261,
+   "term_recall": 0.8728813559322034,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 91,
+     "total": 101,
+     "recall": 0.900990099009901
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 8,
+     "total": 13,
+     "recall": 0.6153846153846154
+    }
+   },
+   "num_recall": 0.9285714285714286,
+   "num_total": 56,
+   "lid_judged": 322,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 2,
+   "ttfp_p50": 5.926,
+   "ttfp_p90": 11.356,
+   "final_p50": 2.982,
+   "final_p90": 6.007,
+   "final_from_audio_end_p50": 2.608,
+   "first_kind": {
+    "final": 521,
+    "null": 4
+   },
+   "lang": "en",
+   "engine": "txrt-omi-med-stt-v1",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "omi-health/omi-med-stt-v1",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.09,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-parakeet-v3": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.09313808956240423,
+   "wer_ci95": [
+    0.07027589796980739,
+    0.11747802569303584
+   ],
+   "wer_ok_only": 0.09313808956240423,
+   "sub_rate": 0.03984335092797548,
+   "del_rate": 0.03694874851013111,
+   "ins_rate": 0.016345990124297632,
+   "term_recall": 0.8135593220338984,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 85,
+     "total": 101,
+     "recall": 0.8415841584158416
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 7,
+     "total": 13,
+     "recall": 0.5384615384615384
+    }
+   },
+   "num_recall": 0.9285714285714286,
+   "num_total": 56,
+   "lid_judged": 340,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 6,
+   "ttfp_p50": 5.742,
+   "ttfp_p90": 11.373,
+   "final_p50": 2.911,
+   "final_p90": 5.824,
+   "final_from_audio_end_p50": 2.547,
+   "first_kind": {
+    "final": 522,
+    "null": 3
+   },
+   "lang": "en",
+   "engine": "txrt-parakeet-v3",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "nvidia/parakeet-v3",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.09,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-soniox-stt-rt-v4": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.09364890175378852,
+   "wer_ci95": [
+    0.07053094564875903,
+    0.11702954898911352
+   ],
+   "wer_ok_only": 0.09364890175378852,
+   "sub_rate": 0.04427038991997276,
+   "del_rate": 0.02962710710028946,
+   "ins_rate": 0.019751404733526306,
+   "term_recall": 0.8728813559322034,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 91,
+     "total": 101,
+     "recall": 0.900990099009901
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 8,
+     "total": 13,
+     "recall": 0.6153846153846154
+    }
+   },
+   "num_recall": 0.9107142857142857,
+   "num_total": 56,
+   "lid_judged": 341,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 1,
+   "ttfp_p50": 1.184,
+   "ttfp_p90": 1.691,
+   "final_p50": 0.701,
+   "final_p90": 0.845,
+   "final_from_audio_end_p50": 0.339,
+   "first_kind": {
+    "partial": 440,
+    "final": 85
+   },
+   "lang": "en",
+   "engine": "txrt-soniox-stt-rt-v4",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "soniox/stt-rt-v4",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.12,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-speechmatics-standard": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 18,
+   "failure_rate": 0.0343,
+   "wer": 0.19223565469095863,
+   "wer_ci95": [
+    0.13037399510660608,
+    0.29991532599491955
+   ],
+   "wer_ok_only": 0.14676258992805755,
+   "sub_rate": 0.053465009364890174,
+   "del_rate": 0.12276519666269368,
+   "ins_rate": 0.016005448663374767,
+   "term_recall": 0.7372881355932204,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 77,
+     "total": 101,
+     "recall": 0.7623762376237624
+    },
+    "dosage": {
+     "hit": 4,
+     "total": 4,
+     "recall": 1.0
+    },
+    "drug": {
+     "hit": 6,
+     "total": 13,
+     "recall": 0.46153846153846156
+    }
+   },
+   "num_recall": 0.8035714285714286,
+   "num_total": 56,
+   "lid_judged": 322,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 2,
+   "ttfp_p50": 1.041,
+   "ttfp_p90": 1.723,
+   "final_p50": 0.778,
+   "final_p90": 0.944,
+   "final_from_audio_end_p50": 0.44,
+   "first_kind": {
+    "null": 19,
+    "partial": 380,
+    "final": 108
+   },
+   "lang": "en",
+   "engine": "txrt-speechmatics-standard",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "speechmatics/standard",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.21,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  },
+  "txrt-universal-3-5-pro": {
+   "n_speech": 525,
+   "audio_min": 35.89,
+   "failures": 0,
+   "failure_rate": 0.0,
+   "wer": 0.16260854759066917,
+   "wer_ci95": [
+    0.1414442700156986,
+    0.18806565424144808
+   ],
+   "wer_ok_only": 0.16260854759066917,
+   "sub_rate": 0.04920824110335433,
+   "del_rate": 0.10131108462455304,
+   "ins_rate": 0.012089221862761792,
+   "term_recall": 0.7966101694915254,
+   "term_recall_by_cat": {
+    "condition": {
+     "hit": 84,
+     "total": 101,
+     "recall": 0.8316831683168316
+    },
+    "dosage": {
+     "hit": 3,
+     "total": 4,
+     "recall": 0.75
+    },
+    "drug": {
+     "hit": 7,
+     "total": 13,
+     "recall": 0.5384615384615384
+    }
+   },
+   "num_recall": 0.7857142857142857,
+   "num_total": 56,
+   "lid_judged": 337,
+   "wrong_language": 0,
+   "silence_probes": 15,
+   "hallucinations": 0,
+   "ttfp_p50": 2.685,
+   "ttfp_p90": 3.943,
+   "final_p50": 0.981,
+   "final_p90": 1.289,
+   "final_from_audio_end_p50": 0.619,
+   "first_kind": {
+    "final": 524,
+    "null": 1
+   },
+   "lang": "en",
+   "engine": "txrt-universal-3-5-pro",
+   "lane": "realtime",
+   "vendor": "telnyx",
+   "model": "assemblyai/universal-3-5-pro",
+   "keyterms": false,
+   "usd_per_audio_hour": 0.3,
+   "missing": 0,
+   "excluded_empty_gold": 0
+  }
+ },
+ "by_lang": {}
+}

@@ -1,0 +1,110 @@
+{
+ "source": "phone-in script M pack (drugs, pharmacies, insurers); what a clinic would load as a vocabulary. Patient names are NOT included.",
+ "terms": [
+  {
+   "term": "lisinopril",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "metformin",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "atorvastatin",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Eliquis",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "levothyroxine",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "amoxicillin",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "penicillin",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "sulfa",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Ozempic",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "sertraline",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "gabapentin",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "ibuprofen",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "warfarin",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Walgreens",
+   "category": "pharmacy",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "CVS",
+   "category": "pharmacy",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Rite Aid",
+   "category": "pharmacy",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Blue Cross Blue Shield",
+   "category": "insurer",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Aetna",
+   "category": "insurer",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Medicare",
+   "category": "insurer",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "UnitedHealthcare",
+   "category": "insurer",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "Kaiser Permanente",
+   "category": "insurer",
+   "gold_occurrences": 5
+  }
+ ]
+}

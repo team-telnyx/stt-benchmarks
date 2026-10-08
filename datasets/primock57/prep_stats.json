@@ -1,0 +1,21 @@
+{
+  "silence_probes": 15,
+  "kept_clips": 4384,
+  "kept_hours": 4.821,
+  "excluded": {
+    "unsure_markup": 724,
+    "unintelligible_markup": 1853,
+    "empty_after_normalization": 147
+  },
+  "pilot_consultations": [
+    "day4_consultation05",
+    "day4_consultation09",
+    "day4_consultation07",
+    "day2_consultation05",
+    "day3_consultation07",
+    "day2_consultation08",
+    "day1_consultation04"
+  ],
+  "pilot_clips": 525,
+  "pilot_minutes": 35.89
+}

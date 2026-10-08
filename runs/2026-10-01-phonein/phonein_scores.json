@@ -1,0 +1,2355 @@
+{
+ "lane": {
+  "el-scribe_v2": "batch",
+  "el-scribe_v2+keyterms": "batch",
+  "el-scribe_v2_medical": "batch",
+  "el-scribe_v2_medical+keyterms": "batch",
+  "el-scribe_v2_realtime": "realtime",
+  "el-scribe_v2_realtime+keyterms": "realtime",
+  "omi-medical-1": "batch",
+  "omi-medical-edge-1": "batch",
+  "omirt-medical-1": "batch",
+  "tx-nova-3": "batch",
+  "tx-nova-3+keyterms": "batch",
+  "tx-nova-3-medical": "batch",
+  "tx-nova-3-medical+keyterms": "batch",
+  "tx-omi-med-stt-v1": "batch",
+  "tx-parakeet-v3": "batch",
+  "tx-whisper-large-v3-turbo": "batch",
+  "txrt-azure-fast": "realtime",
+  "txrt-flux": "realtime",
+  "txrt-grok-stt": "realtime",
+  "txrt-linden-1": "realtime",
+  "txrt-nova-3": "realtime",
+  "txrt-nova-3+keyterms": "realtime",
+  "txrt-nova-3-medical": "realtime",
+  "txrt-nova-3-medical+keyterms": "realtime",
+  "txrt-omi-med-stt-v1": "realtime",
+  "txrt-parakeet-v3": "realtime",
+  "txrt-soniox-stt-rt-v4": "realtime",
+  "txrt-speechmatics-standard": "realtime",
+  "txrt-universal-3-5-pro": "realtime"
+ },
+ "results": {
+  "el-scribe_v2": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.3445212240868707,
+    "exact": 19,
+    "exact_tol": 19
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.423728813559322,
+    "exact": 92,
+    "exact_tol": 113,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.14502369668246445,
+    "exact": 39,
+    "exact_tol": 41,
+    "terms": [
+     124,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.3408239700374532,
+    "exact": 15,
+    "exact_tol": 15
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.3584905660377358,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.40425531914893614,
+    "exact": 73,
+    "exact_tol": 89,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.5,
+    "exact": 19,
+    "exact_tol": 24,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.12529550827423167,
+    "exact": 36,
+    "exact_tol": 38,
+    "terms": [
+     102,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.22488038277511962,
+    "exact": 3,
+    "exact_tol": 3,
+    "terms": [
+     22,
+     29
+    ]
+   }
+  },
+  "el-scribe_v2+keyterms": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.32872655478775914,
+    "exact": 27,
+    "exact_tol": 27
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.3672316384180791,
+    "exact": 96,
+    "exact_tol": 112,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.13270142180094788,
+    "exact": 44,
+    "exact_tol": 45,
+    "terms": [
+     131,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.3258426966292135,
+    "exact": 22,
+    "exact_tol": 22
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.33962264150943394,
+    "exact": 5,
+    "exact_tol": 5
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.3829787234042553,
+    "exact": 75,
+    "exact_tol": 86,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3055555555555556,
+    "exact": 21,
+    "exact_tol": 26,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.11583924349881797,
+    "exact": 39,
+    "exact_tol": 40,
+    "terms": [
+     106,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.20095693779904306,
+    "exact": 5,
+    "exact_tol": 5,
+    "terms": [
+     25,
+     29
+    ]
+   }
+  },
+  "el-scribe_v2_medical": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.3119447186574531,
+    "exact": 32,
+    "exact_tol": 33
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.4067796610169492,
+    "exact": 95,
+    "exact_tol": 113,
+    "wrong_lang": 1
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.12701421800947868,
+    "exact": 45,
+    "exact_tol": 45,
+    "terms": [
+     122,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.31335830212234705,
+    "exact": 24,
+    "exact_tol": 25
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.30660377358490565,
+    "exact": 8,
+    "exact_tol": 8
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.41843971631205673,
+    "exact": 74,
+    "exact_tol": 87,
+    "wrong_lang": 1
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3611111111111111,
+    "exact": 21,
+    "exact_tol": 26,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.10520094562647754,
+    "exact": 41,
+    "exact_tol": 41,
+    "terms": [
+     101,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.215311004784689,
+    "exact": 4,
+    "exact_tol": 4,
+    "terms": [
+     21,
+     29
+    ]
+   }
+  },
+  "el-scribe_v2_medical+keyterms": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.3060217176702863,
+    "exact": 34,
+    "exact_tol": 36
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.4067796610169492,
+    "exact": 96,
+    "exact_tol": 114,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.08720379146919431,
+    "exact": 57,
+    "exact_tol": 57,
+    "terms": [
+     137,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.30586766541822724,
+    "exact": 26,
+    "exact_tol": 28
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.30660377358490565,
+    "exact": 8,
+    "exact_tol": 8
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.425531914893617,
+    "exact": 75,
+    "exact_tol": 89,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3333333333333333,
+    "exact": 21,
+    "exact_tol": 25,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.07210401891252956,
+    "exact": 52,
+    "exact_tol": 52,
+    "terms": [
+     111,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.14832535885167464,
+    "exact": 5,
+    "exact_tol": 5,
+    "terms": [
+     26,
+     29
+    ]
+   }
+  },
+  "el-scribe_v2_realtime": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.35932872655478776,
+    "exact": 22,
+    "exact_tol": 25
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.480225988700565,
+    "exact": 85,
+    "exact_tol": 99,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.1734597156398104,
+    "exact": 33,
+    "exact_tol": 34,
+    "terms": [
+     118,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.36079900124843944,
+    "exact": 16,
+    "exact_tol": 19
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.35377358490566035,
+    "exact": 6,
+    "exact_tol": 6
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.5106382978723404,
+    "exact": 65,
+    "exact_tol": 76,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3611111111111111,
+    "exact": 20,
+    "exact_tol": 23,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.15130023640661938,
+    "exact": 31,
+    "exact_tol": 32,
+    "terms": [
+     98,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.2631578947368421,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     20,
+     29
+    ]
+   }
+  },
+  "el-scribe_v2_realtime+keyterms": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.36229022704837116,
+    "exact": 20,
+    "exact_tol": 23
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.5819209039548022,
+    "exact": 68,
+    "exact_tol": 93,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.16208530805687205,
+    "exact": 34,
+    "exact_tol": 38,
+    "terms": [
+     129,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.36079900124843944,
+    "exact": 14,
+    "exact_tol": 17
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.36792452830188677,
+    "exact": 6,
+    "exact_tol": 6
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.624113475177305,
+    "exact": 50,
+    "exact_tol": 71,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.4166666666666667,
+    "exact": 18,
+    "exact_tol": 22,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.14184397163120568,
+    "exact": 31,
+    "exact_tol": 35,
+    "terms": [
+     107,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.24401913875598086,
+    "exact": 3,
+    "exact_tol": 3,
+    "terms": [
+     22,
+     29
+    ]
+   }
+  },
+  "omi-medical-1": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.36031589338598224,
+    "exact": 19,
+    "exact_tol": 19
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.4124293785310734,
+    "exact": 99,
+    "exact_tol": 111,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.14786729857819905,
+    "exact": 41,
+    "exact_tol": 42,
+    "terms": [
+     104,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.3495630461922597,
+    "exact": 15,
+    "exact_tol": 15
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.4009433962264151,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.45390070921985815,
+    "exact": 76,
+    "exact_tol": 85,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.25,
+    "exact": 23,
+    "exact_tol": 26,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.1347517730496454,
+    "exact": 37,
+    "exact_tol": 38,
+    "terms": [
+     87,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.20095693779904306,
+    "exact": 4,
+    "exact_tol": 4,
+    "terms": [
+     17,
+     29
+    ]
+   }
+  },
+  "omi-medical-edge-1": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.4027640671273445,
+    "exact": 11,
+    "exact_tol": 11
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.423728813559322,
+    "exact": 101,
+    "exact_tol": 111,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.1981042654028436,
+    "exact": 24,
+    "exact_tol": 24,
+    "terms": [
+     82,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4157303370786517,
+    "exact": 5,
+    "exact_tol": 5
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.35377358490566035,
+    "exact": 6,
+    "exact_tol": 6
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.3900709219858156,
+    "exact": 82,
+    "exact_tol": 90,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.5555555555555556,
+    "exact": 19,
+    "exact_tol": 21,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.18203309692671396,
+    "exact": 22,
+    "exact_tol": 22,
+    "terms": [
+     67,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.2631578947368421,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     15,
+     29
+    ]
+   }
+  },
+  "omirt-medical-1": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.4521224086870681,
+    "exact": 11,
+    "exact_tol": 11
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.423728813559322,
+    "exact": 92,
+    "exact_tol": 104,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.195260663507109,
+    "exact": 31,
+    "exact_tol": 31,
+    "terms": [
+     100,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4581772784019975,
+    "exact": 7,
+    "exact_tol": 7
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.42924528301886794,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.44680851063829785,
+    "exact": 71,
+    "exact_tol": 80,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3333333333333333,
+    "exact": 21,
+    "exact_tol": 24,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.18085106382978725,
+    "exact": 30,
+    "exact_tol": 30,
+    "terms": [
+     82,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.2535885167464115,
+    "exact": 1,
+    "exact_tol": 1,
+    "terms": [
+     18,
+     29
+    ]
+   }
+  },
+  "tx-nova-3": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.3770977295162882,
+    "exact": 17,
+    "exact_tol": 17
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.24858757062146894,
+    "exact": 117,
+    "exact_tol": 121,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.16492890995260664,
+    "exact": 33,
+    "exact_tol": 34,
+    "terms": [
+     116,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.3757802746566791,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.38207547169811323,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.2553191489361702,
+    "exact": 91,
+    "exact_tol": 95,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.2222222222222222,
+    "exact": 26,
+    "exact_tol": 26,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.1453900709219858,
+    "exact": 32,
+    "exact_tol": 33,
+    "terms": [
+     96,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.24401913875598086,
+    "exact": 1,
+    "exact_tol": 1,
+    "terms": [
+     20,
+     29
+    ]
+   }
+  },
+  "tx-nova-3+keyterms": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.3820335636722606,
+    "exact": 17,
+    "exact_tol": 17
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.2542372881355932,
+    "exact": 116,
+    "exact_tol": 120,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.16113744075829384,
+    "exact": 35,
+    "exact_tol": 35,
+    "terms": [
+     118,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.3782771535580524,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.39622641509433965,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.2553191489361702,
+    "exact": 91,
+    "exact_tol": 95,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.25,
+    "exact": 25,
+    "exact_tol": 25,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.14184397163120568,
+    "exact": 34,
+    "exact_tol": 34,
+    "terms": [
+     98,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.23923444976076555,
+    "exact": 1,
+    "exact_tol": 1,
+    "terms": [
+     20,
+     29
+    ]
+   }
+  },
+  "tx-nova-3-medical": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.36525172754195456,
+    "exact": 16,
+    "exact_tol": 16
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.672316384180791,
+    "exact": 45,
+    "exact_tol": 48,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.15165876777251186,
+    "exact": 38,
+    "exact_tol": 38,
+    "terms": [
+     122,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.36329588014981273,
+    "exact": 12,
+    "exact_tol": 12
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.37264150943396224,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.7163120567375887,
+    "exact": 30,
+    "exact_tol": 33,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.5,
+    "exact": 15,
+    "exact_tol": 15,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.13356973995271867,
+    "exact": 35,
+    "exact_tol": 35,
+    "terms": [
+     99,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.22488038277511962,
+    "exact": 3,
+    "exact_tol": 3,
+    "terms": [
+     23,
+     29
+    ]
+   }
+  },
+  "tx-nova-3-medical+keyterms": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.36426456071076013,
+    "exact": 17,
+    "exact_tol": 17
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.8192090395480226,
+    "exact": 25,
+    "exact_tol": 31,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.15545023696682464,
+    "exact": 35,
+    "exact_tol": 35,
+    "terms": [
+     117,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.3620474406991261,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.37264150943396224,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.8368794326241135,
+    "exact": 16,
+    "exact_tol": 22,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.75,
+    "exact": 9,
+    "exact_tol": 9,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.13829787234042554,
+    "exact": 33,
+    "exact_tol": 33,
+    "terms": [
+     94,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.22488038277511962,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     23,
+     29
+    ]
+   }
+  },
+  "tx-omi-med-stt-v1": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.41954590325765057,
+    "exact": 11,
+    "exact_tol": 11
+   },
+   "S": {
+    "n": 147,
+    "fail": 2,
+    "wer": 0.36416184971098264,
+    "exact": 101,
+    "exact_tol": 110,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 1,
+    "wer": 0.19385796545105566,
+    "exact": 24,
+    "exact_tol": 24,
+    "terms": [
+     80,
+     139
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4394506866416979,
+    "exact": 5,
+    "exact_tol": 5
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.3443396226415094,
+    "exact": 6,
+    "exact_tol": 6
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 1,
+    "wer": 0.3669064748201439,
+    "exact": 81,
+    "exact_tol": 88,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 1,
+    "wer": 0.35294117647058826,
+    "exact": 20,
+    "exact_tol": 22,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 1,
+    "wer": 0.17767106842737096,
+    "exact": 22,
+    "exact_tol": 22,
+    "terms": [
+     65,
+     110
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.2583732057416268,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     15,
+     29
+    ]
+   }
+  },
+  "tx-parakeet-v3": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.43139190523198423,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.4858757062146893,
+    "exact": 83,
+    "exact_tol": 88,
+    "wrong_lang": 1
+   },
+   "M": {
+    "n": 90,
+    "fail": 1,
+    "wer": 0.23919308357348704,
+    "exact": 16,
+    "exact_tol": 17,
+    "terms": [
+     78,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.42946317103620474,
+    "exact": 9,
+    "exact_tol": 9
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.4386792452830189,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.5177304964539007,
+    "exact": 64,
+    "exact_tol": 67,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3611111111111111,
+    "exact": 19,
+    "exact_tol": 21,
+    "wrong_lang": 1
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 1,
+    "wer": 0.23918269230769232,
+    "exact": 15,
+    "exact_tol": 16,
+    "terms": [
+     63,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.23923444976076555,
+    "exact": 1,
+    "exact_tol": 1,
+    "terms": [
+     15,
+     29
+    ]
+   }
+  },
+  "tx-whisper-large-v3-turbo": {
+   "N": {
+    "n": 102,
+    "fail": 2,
+    "wer": 0.3698492462311558,
+    "exact": 19,
+    "exact_tol": 19
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.5480225988700564,
+    "exact": 76,
+    "exact_tol": 91,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.16398104265402844,
+    "exact": 39,
+    "exact_tol": 40,
+    "terms": [
+     107,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 2,
+    "wer": 0.3716475095785441,
+    "exact": 15,
+    "exact_tol": 15
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.3632075471698113,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.5886524822695035,
+    "exact": 58,
+    "exact_tol": 72,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3888888888888889,
+    "exact": 18,
+    "exact_tol": 19,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.14657210401891252,
+    "exact": 36,
+    "exact_tol": 37,
+    "terms": [
+     89,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.23444976076555024,
+    "exact": 3,
+    "exact_tol": 3,
+    "terms": [
+     18,
+     29
+    ]
+   }
+  },
+  "txrt-azure-fast": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.46495557749259625,
+    "exact": 15,
+    "exact_tol": 15
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.23728813559322035,
+    "exact": 117,
+    "exact_tol": 122,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.17440758293838862,
+    "exact": 31,
+    "exact_tol": 31,
+    "terms": [
+     103,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4794007490636704,
+    "exact": 10,
+    "exact_tol": 10
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.41037735849056606,
+    "exact": 5,
+    "exact_tol": 5
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.2553191489361702,
+    "exact": 90,
+    "exact_tol": 95,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.16666666666666666,
+    "exact": 27,
+    "exact_tol": 27,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.1595744680851064,
+    "exact": 28,
+    "exact_tol": 28,
+    "terms": [
+     86,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.23444976076555024,
+    "exact": 3,
+    "exact_tol": 3,
+    "terms": [
+     17,
+     29
+    ]
+   }
+  },
+  "txrt-flux": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.39387956564659427,
+    "exact": 17,
+    "exact_tol": 17
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.24858757062146894,
+    "exact": 116,
+    "exact_tol": 125,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.2028436018957346,
+    "exact": 31,
+    "exact_tol": 32,
+    "terms": [
+     106,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.3920099875156055,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.4009433962264151,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.2765957446808511,
+    "exact": 89,
+    "exact_tol": 97,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.1388888888888889,
+    "exact": 27,
+    "exact_tol": 28,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.18912529550827423,
+    "exact": 29,
+    "exact_tol": 30,
+    "terms": [
+     86,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.2583732057416268,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     20,
+     29
+    ]
+   }
+  },
+  "txrt-grok-stt": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.39585389930898324,
+    "exact": 21,
+    "exact_tol": 21
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.23728813559322035,
+    "exact": 118,
+    "exact_tol": 121,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.2104265402843602,
+    "exact": 28,
+    "exact_tol": 29,
+    "terms": [
+     103,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4019975031210986,
+    "exact": 16,
+    "exact_tol": 16
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.37264150943396224,
+    "exact": 5,
+    "exact_tol": 5
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.22695035460992907,
+    "exact": 94,
+    "exact_tol": 97,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.2777777777777778,
+    "exact": 24,
+    "exact_tol": 24,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.17375886524822695,
+    "exact": 26,
+    "exact_tol": 27,
+    "terms": [
+     85,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.3588516746411483,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     18,
+     29
+    ]
+   }
+  },
+  "txrt-linden-1": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.4550839091806515,
+    "exact": 20,
+    "exact_tol": 20
+   },
+   "S": {
+    "n": 147,
+    "fail": 1,
+    "wer": 0.38636363636363635,
+    "exact": 93,
+    "exact_tol": 99,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.15734597156398103,
+    "exact": 36,
+    "exact_tol": 38,
+    "terms": [
+     119,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4556803995006242,
+    "exact": 15,
+    "exact_tol": 15
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.4528301886792453,
+    "exact": 5,
+    "exact_tol": 5
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 1,
+    "wer": 0.37857142857142856,
+    "exact": 75,
+    "exact_tol": 80,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.4166666666666667,
+    "exact": 18,
+    "exact_tol": 19,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.14066193853427897,
+    "exact": 33,
+    "exact_tol": 35,
+    "terms": [
+     99,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.22488038277511962,
+    "exact": 3,
+    "exact_tol": 3,
+    "terms": [
+     20,
+     29
+    ]
+   }
+  },
+  "txrt-nova-3": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.40868706811451133,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.23728813559322035,
+    "exact": 116,
+    "exact_tol": 118,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.17725118483412322,
+    "exact": 28,
+    "exact_tol": 29,
+    "terms": [
+     113,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4157303370786517,
+    "exact": 9,
+    "exact_tol": 9
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.38207547169811323,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.24113475177304963,
+    "exact": 92,
+    "exact_tol": 94,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.2222222222222222,
+    "exact": 24,
+    "exact_tol": 24,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.16312056737588654,
+    "exact": 25,
+    "exact_tol": 26,
+    "terms": [
+     93,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.23444976076555024,
+    "exact": 3,
+    "exact_tol": 3,
+    "terms": [
+     20,
+     29
+    ]
+   }
+  },
+  "txrt-nova-3+keyterms": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.40868706811451133,
+    "exact": 12,
+    "exact_tol": 12
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.23728813559322035,
+    "exact": 116,
+    "exact_tol": 118,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.16208530805687205,
+    "exact": 29,
+    "exact_tol": 30,
+    "terms": [
+     121,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.41448189762796506,
+    "exact": 8,
+    "exact_tol": 8
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.3867924528301887,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.24113475177304963,
+    "exact": 92,
+    "exact_tol": 94,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.2222222222222222,
+    "exact": 24,
+    "exact_tol": 24,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.1524822695035461,
+    "exact": 25,
+    "exact_tol": 26,
+    "terms": [
+     98,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.20095693779904306,
+    "exact": 4,
+    "exact_tol": 4,
+    "terms": [
+     23,
+     29
+    ]
+   }
+  },
+  "txrt-nova-3-medical": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.403751233958539,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.327683615819209,
+    "exact": 105,
+    "exact_tol": 108,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.16398104265402844,
+    "exact": 35,
+    "exact_tol": 35,
+    "terms": [
+     117,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4094881398252185,
+    "exact": 9,
+    "exact_tol": 9
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.38207547169811323,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.3262411347517731,
+    "exact": 83,
+    "exact_tol": 85,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3333333333333333,
+    "exact": 22,
+    "exact_tol": 23,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.15011820330969267,
+    "exact": 30,
+    "exact_tol": 30,
+    "terms": [
+     96,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.22009569377990432,
+    "exact": 5,
+    "exact_tol": 5,
+    "terms": [
+     21,
+     29
+    ]
+   }
+  },
+  "txrt-nova-3-medical+keyterms": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.4136229022704837,
+    "exact": 13,
+    "exact_tol": 13
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.3163841807909605,
+    "exact": 107,
+    "exact_tol": 109,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.15355450236966825,
+    "exact": 35,
+    "exact_tol": 35,
+    "terms": [
+     123,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.42197253433208487,
+    "exact": 9,
+    "exact_tol": 9
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.38207547169811323,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.3191489361702128,
+    "exact": 84,
+    "exact_tol": 86,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3055555555555556,
+    "exact": 23,
+    "exact_tol": 23,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.13829787234042554,
+    "exact": 30,
+    "exact_tol": 30,
+    "terms": [
+     101,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.215311004784689,
+    "exact": 5,
+    "exact_tol": 5,
+    "terms": [
+     22,
+     29
+    ]
+   }
+  },
+  "txrt-omi-med-stt-v1": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.4590325765054294,
+    "exact": 14,
+    "exact_tol": 14
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.3954802259887006,
+    "exact": 98,
+    "exact_tol": 105,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.21800947867298578,
+    "exact": 23,
+    "exact_tol": 23,
+    "terms": [
+     78,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.48064918851435706,
+    "exact": 7,
+    "exact_tol": 7
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.37735849056603776,
+    "exact": 7,
+    "exact_tol": 7
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.3829787234042553,
+    "exact": 79,
+    "exact_tol": 85,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.4444444444444444,
+    "exact": 19,
+    "exact_tol": 20,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.20094562647754138,
+    "exact": 21,
+    "exact_tol": 21,
+    "terms": [
+     62,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.28708133971291866,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     16,
+     29
+    ]
+   }
+  },
+  "txrt-parakeet-v3": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.48963474827245806,
+    "exact": 12,
+    "exact_tol": 12
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.6214689265536724,
+    "exact": 69,
+    "exact_tol": 75,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.2663507109004739,
+    "exact": 18,
+    "exact_tol": 18,
+    "terms": [
+     66,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.5068664169787765,
+    "exact": 9,
+    "exact_tol": 9
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.42452830188679247,
+    "exact": 3,
+    "exact_tol": 3
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.6737588652482269,
+    "exact": 51,
+    "exact_tol": 55,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.4166666666666667,
+    "exact": 18,
+    "exact_tol": 20,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.26004728132387706,
+    "exact": 18,
+    "exact_tol": 18,
+    "terms": [
+     52,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.291866028708134,
+    "exact": 0,
+    "exact_tol": 0,
+    "terms": [
+     14,
+     29
+    ]
+   }
+  },
+  "txrt-soniox-stt-rt-v4": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.4165844027640671,
+    "exact": 23,
+    "exact_tol": 28
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.423728813559322,
+    "exact": 92,
+    "exact_tol": 113,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.1943127962085308,
+    "exact": 34,
+    "exact_tol": 37,
+    "terms": [
+     108,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.418227215980025,
+    "exact": 17,
+    "exact_tol": 21
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.41037735849056606,
+    "exact": 6,
+    "exact_tol": 7
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.41843971631205673,
+    "exact": 74,
+    "exact_tol": 88,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.4444444444444444,
+    "exact": 18,
+    "exact_tol": 25,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.1879432624113475,
+    "exact": 30,
+    "exact_tol": 33,
+    "terms": [
+     89,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.22009569377990432,
+    "exact": 4,
+    "exact_tol": 4,
+    "terms": [
+     19,
+     29
+    ]
+   }
+  },
+  "txrt-speechmatics-standard": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.5873642645607108,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.3785310734463277,
+    "exact": 100,
+    "exact_tol": 107,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.28056872037914693,
+    "exact": 16,
+    "exact_tol": 17,
+    "terms": [
+     82,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.6017478152309613,
+    "exact": 3,
+    "exact_tol": 3
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.5330188679245284,
+    "exact": 1,
+    "exact_tol": 1
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.375886524822695,
+    "exact": 79,
+    "exact_tol": 84,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.3888888888888889,
+    "exact": 21,
+    "exact_tol": 23,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.2647754137115839,
+    "exact": 15,
+    "exact_tol": 16,
+    "terms": [
+     68,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.3444976076555024,
+    "exact": 1,
+    "exact_tol": 1,
+    "terms": [
+     14,
+     29
+    ]
+   }
+  },
+  "txrt-universal-3-5-pro": {
+   "N": {
+    "n": 102,
+    "fail": 0,
+    "wer": 0.4570582428430405,
+    "exact": 5,
+    "exact_tol": 5
+   },
+   "S": {
+    "n": 147,
+    "fail": 0,
+    "wer": 0.3502824858757062,
+    "exact": 108,
+    "exact_tol": 119,
+    "wrong_lang": 0
+   },
+   "M": {
+    "n": 90,
+    "fail": 0,
+    "wer": 0.23507109004739338,
+    "exact": 16,
+    "exact_tol": 16,
+    "terms": [
+     99,
+     142
+    ]
+   },
+   "N_handset": {
+    "n": 81,
+    "fail": 0,
+    "wer": 0.4706616729088639,
+    "exact": 4,
+    "exact_tol": 4
+   },
+   "N_speaker": {
+    "n": 21,
+    "fail": 0,
+    "wer": 0.4056603773584906,
+    "exact": 1,
+    "exact_tol": 1
+   },
+   "S_handset": {
+    "n": 117,
+    "fail": 0,
+    "wer": 0.375886524822695,
+    "exact": 83,
+    "exact_tol": 91,
+    "wrong_lang": 0
+   },
+   "S_speaker": {
+    "n": 30,
+    "fail": 0,
+    "wer": 0.25,
+    "exact": 25,
+    "exact_tol": 28,
+    "wrong_lang": 0
+   },
+   "M_handset": {
+    "n": 72,
+    "fail": 0,
+    "wer": 0.22458628841607564,
+    "exact": 14,
+    "exact_tol": 14,
+    "terms": [
+     80,
+     113
+    ]
+   },
+   "M_speaker": {
+    "n": 18,
+    "fail": 0,
+    "wer": 0.27751196172248804,
+    "exact": 2,
+    "exact_tol": 2,
+    "terms": [
+     19,
+     29
+    ]
+   }
+  }
+ }
+}

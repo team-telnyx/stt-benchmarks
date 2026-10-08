@@ -1,0 +1,23 @@
+{
+ "dataset": "primock57chunk",
+ "subset": "full",
+ "n_clips": 456,
+ "audio_seconds": 18669.77,
+ "clip_list_sha256": "cc2fe0ef64315179d625dda904707c16250989e82d725dc1b569157ccb340330",
+ "prices_per_hour": {
+  "elevenlabs/scribe_v2": 0.22,
+  "elevenlabs/scribe_v2_medical": 0.22,
+  "elevenlabs/scribe_v2_realtime": 0.39,
+  "telnyx/deepgram": 0.3,
+  "telnyx/assemblyai": 0.3,
+  "telnyx/speechmatics": 0.21,
+  "telnyx/soniox": 0.12,
+  "telnyx/parakeet": 0.09,
+  "telnyx/whisper": 0.8999999999999999,
+  "telnyx/xai": 0.198,
+  "telnyx/azure": 1.6199999999999999,
+  "omi/batch": 0.29,
+  "omi/live": 0.45
+ },
+ "created": 1790908470.5339131
+}

@@ -1,0 +1,861 @@
+{
+ "source": "Wikidata CC0 labels (ATC P267, ICD-10 P494, ICD-11 P7807) matched to PriMock57 gold",
+ "common_word_zipf_cutoff": 4.5,
+ "excluded": {
+  "abdomen": "anatomy",
+  "belly": "anatomy",
+  "belly button": "anatomy",
+  "bum": "anatomy",
+  "calf": "anatomy",
+  "colon": "anatomy",
+  "ear": "anatomy",
+  "ears": "anatomy",
+  "ear drum": "anatomy",
+  "elbow": "anatomy",
+  "finger": "anatomy",
+  "gut": "anatomy",
+  "jaw": "anatomy",
+  "kidney": "anatomy",
+  "knee": "anatomy",
+  "lip": "anatomy",
+  "lips": "anatomy",
+  "lower abdomen": "anatomy",
+  "middle ear": "anatomy",
+  "muscles": "anatomy",
+  "navel": "anatomy",
+  "nerve": "anatomy",
+  "palm": "anatomy",
+  "pecs": "anatomy",
+  "stomach": "anatomy",
+  "thumb": "anatomy",
+  "thyroid": "anatomy",
+  "toes": "anatomy",
+  "tummy": "anatomy",
+  "wrist": "anatomy",
+  "tissues": "anatomy",
+  "field of vision": "anatomy",
+  "left hand side": "anatomy",
+  "left side": "anatomy",
+  "upper respiratory tract": "anatomy",
+  "acute": "qualifier_or_generic",
+  "mild": "qualifier_or_generic",
+  "moderate": "qualifier_or_generic",
+  "minimal": "qualifier_or_generic",
+  "slight": "qualifier_or_generic",
+  "severely": "qualifier_or_generic",
+  "severity": "qualifier_or_generic",
+  "small amount": "qualifier_or_generic",
+  "odd": "qualifier_or_generic",
+  "sensation": "qualifier_or_generic",
+  "exposure": "qualifier_or_generic",
+  "recurrence": "qualifier_or_generic",
+  "illness": "qualifier_or_generic",
+  "injuries": "qualifier_or_generic",
+  "nervous": "qualifier_or_generic",
+  "a virus": "qualifier_or_generic",
+  "virus": "qualifier_or_generic",
+  "bacteria": "qualifier_or_generic",
+  "ache": "qualifier_or_generic",
+  "bite": "qualifier_or_generic",
+  "sore": "qualifier_or_generic",
+  "shortness": "qualifier_or_generic",
+  "the flu": "qualifier_or_generic",
+  "fever or": "qualifier_or_generic",
+  "settle": "not_medical_in_context",
+  "pets": "not_medical_in_context",
+  "gps": "not_medical_in_context",
+  "high school": "not_medical_in_context",
+  "missus": "not_medical_in_context",
+  "ups": "not_medical_in_context",
+  "or or": "not_medical_in_context",
+  "or or or": "not_medical_in_context",
+  "bee": "not_medical_in_context",
+  "wasp": "not_medical_in_context",
+  "wee": "not_medical_in_context",
+  "ors": "not_medical_in_context",
+  "coke": "not_medical_in_context",
+  "cocaine": "not_medical_in_context",
+  "oxygen": "not_medical_in_context",
+  "tuberculosis": "not_medical_in_context",
+  "vitamins": "not_medical_in_context"
+ },
+ "sha256": "a9a3153f1383e80d28b8ea4415512ac48d094d84f0fcb2295a2e1c88f3def5a4",
+ "n_terms": 154,
+ "by_category": {
+  "drug": 26,
+  "condition": 113,
+  "dosage": 15
+ },
+ "terms": [
+  {
+   "term": "2 tablets",
+   "category": "dosage",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "200 milligrams",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "3 puffs",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "3 times a day",
+   "category": "dosage",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "3 times a week",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "34 times a day",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "4 puffs",
+   "category": "dosage",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "4 times a week",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "4 times per week",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "400 milligrams",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "6 times a day",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "75 milligrams",
+   "category": "dosage",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "abdominal pain",
+   "category": "condition",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "abnormal gait",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "acetaminophen",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "adverse reaction",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "allergic reaction",
+   "category": "condition",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "allergies",
+   "category": "condition",
+   "gold_occurrences": 34
+  },
+  {
+   "term": "allergy",
+   "category": "condition",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "amoxycillin",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "anemia",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "angina",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "antihistamine",
+   "category": "drug",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "anxiety",
+   "category": "condition",
+   "gold_occurrences": 6
+  },
+  {
+   "term": "aspirin",
+   "category": "drug",
+   "gold_occurrences": 6
+  },
+  {
+   "term": "asthma",
+   "category": "condition",
+   "gold_occurrences": 36
+  },
+  {
+   "term": "back pain",
+   "category": "condition",
+   "gold_occurrences": 10
+  },
+  {
+   "term": "bacterial infection",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "bee sting",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "bleeding",
+   "category": "condition",
+   "gold_occurrences": 6
+  },
+  {
+   "term": "blood clots",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "blood in the stool",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "bowel cancer",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "brain tumor",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "bruise",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "c section",
+   "category": "condition",
+   "gold_occurrences": 7
+  },
+  {
+   "term": "chest infection",
+   "category": "condition",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "chest pain",
+   "category": "condition",
+   "gold_occurrences": 13
+  },
+  {
+   "term": "chest pains",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "clenil",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "clindamycin",
+   "category": "drug",
+   "gold_occurrences": 4
+  },
+  {
+   "term": "codeine",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "constipation",
+   "category": "condition",
+   "gold_occurrences": 4
+  },
+  {
+   "term": "cough",
+   "category": "condition",
+   "gold_occurrences": 43
+  },
+  {
+   "term": "coughing",
+   "category": "condition",
+   "gold_occurrences": 16
+  },
+  {
+   "term": "dehydration",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "diabetes",
+   "category": "condition",
+   "gold_occurrences": 22
+  },
+  {
+   "term": "diarrhea",
+   "category": "condition",
+   "gold_occurrences": 26
+  },
+  {
+   "term": "discomfort",
+   "category": "condition",
+   "gold_occurrences": 7
+  },
+  {
+   "term": "dizziness",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "ear discharge",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "ear pain",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "eczema",
+   "category": "condition",
+   "gold_occurrences": 13
+  },
+  {
+   "term": "faint",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "fatigue",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "fever",
+   "category": "condition",
+   "gold_occurrences": 28
+  },
+  {
+   "term": "fexofenadine",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "flu",
+   "category": "condition",
+   "gold_occurrences": 4
+  },
+  {
+   "term": "furosemide",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "gastroenteritis",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "gout",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "hay fever",
+   "category": "condition",
+   "gold_occurrences": 7
+  },
+  {
+   "term": "headache",
+   "category": "condition",
+   "gold_occurrences": 48
+  },
+  {
+   "term": "heart attack",
+   "category": "condition",
+   "gold_occurrences": 9
+  },
+  {
+   "term": "heart failure",
+   "category": "condition",
+   "gold_occurrences": 4
+  },
+  {
+   "term": "hepatitis",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "hepatitis b",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "high blood pressure",
+   "category": "condition",
+   "gold_occurrences": 7
+  },
+  {
+   "term": "hrt",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "hydrocortisone",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "hypertension",
+   "category": "condition",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "hypothyroidism",
+   "category": "condition",
+   "gold_occurrences": 4
+  },
+  {
+   "term": "ibs",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "ibuprofen",
+   "category": "drug",
+   "gold_occurrences": 25
+  },
+  {
+   "term": "implanon",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "itch",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "itchiness",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "itching",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "joint swelling",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "kidney stones",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "lisinopril",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "loratadine",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "loss of appetite",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "lower back pain",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "lung cancer",
+   "category": "condition",
+   "gold_occurrences": 8
+  },
+  {
+   "term": "lupus",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "malaria",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "melatonin",
+   "category": "drug",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "menstrual cramps",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "metformin",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "methotrexate",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "metoprolol",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "migraine",
+   "category": "condition",
+   "gold_occurrences": 8
+  },
+  {
+   "term": "mini stroke",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "morphine",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "naproxen",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "nausea",
+   "category": "condition",
+   "gold_occurrences": 19
+  },
+  {
+   "term": "neck pain",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "neurofibromatosis",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "night sweats",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "nitrofurantoin",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "numbness",
+   "category": "condition",
+   "gold_occurrences": 9
+  },
+  {
+   "term": "once a day",
+   "category": "dosage",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "once a week",
+   "category": "dosage",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "osteoarthritis",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "osteoporosis",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "ovarian failure",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "overweight",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "palpitations",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "panic attacks",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "paracetamol",
+   "category": "drug",
+   "gold_occurrences": 27
+  },
+  {
+   "term": "penicillin",
+   "category": "drug",
+   "gold_occurrences": 4
+  },
+  {
+   "term": "pregnancy",
+   "category": "condition",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "premature ovarian failure",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "rash",
+   "category": "condition",
+   "gold_occurrences": 13
+  },
+  {
+   "term": "redness",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "reduced appetite",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "reflux",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "rheumatoid arthritis",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "runny nose",
+   "category": "condition",
+   "gold_occurrences": 4
+  },
+  {
+   "term": "salbutamol",
+   "category": "drug",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "scar",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "seizure",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "septic arthritis",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "sertraline",
+   "category": "drug",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "severe pain",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "shivering",
+   "category": "condition",
+   "gold_occurrences": 5
+  },
+  {
+   "term": "shortness of breath",
+   "category": "condition",
+   "gold_occurrences": 19
+  },
+  {
+   "term": "sle",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "sneeze",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "sore throat",
+   "category": "condition",
+   "gold_occurrences": 8
+  },
+  {
+   "term": "std",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "stroke",
+   "category": "condition",
+   "gold_occurrences": 8
+  },
+  {
+   "term": "suicidal thoughts",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "swallowing",
+   "category": "condition",
+   "gold_occurrences": 7
+  },
+  {
+   "term": "swelling",
+   "category": "condition",
+   "gold_occurrences": 14
+  },
+  {
+   "term": "tension headache",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "throwing up",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "tia",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "tinnitus",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "trimethoprim",
+   "category": "drug",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "tumor",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "twice a day",
+   "category": "dosage",
+   "gold_occurrences": 6
+  },
+  {
+   "term": "type 2 diabetes",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "underactive thyroid",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "upper respiratory tract infection",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "uti",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "vaginal bleeding",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "vaginal discharge",
+   "category": "condition",
+   "gold_occurrences": 2
+  },
+  {
+   "term": "viral infection",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "vomit",
+   "category": "condition",
+   "gold_occurrences": 3
+  },
+  {
+   "term": "vomiting",
+   "category": "condition",
+   "gold_occurrences": 30
+  },
+  {
+   "term": "weight loss",
+   "category": "condition",
+   "gold_occurrences": 1
+  },
+  {
+   "term": "wheezing",
+   "category": "condition",
+   "gold_occurrences": 6
+  }
+ ]
+}

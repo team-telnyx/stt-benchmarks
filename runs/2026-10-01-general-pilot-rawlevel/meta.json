@@ -1,0 +1,20 @@
+{
+ "dataset": "fleurs",
+ "subset": "pilot:rawlevel",
+ "n_clips": 400,
+ "audio_seconds": 4612.76,
+ "clip_list_sha256": "b758a51b03541c106f5fe6657b05af6aa4645c78de6ce4e221d9754d7417e55c",
+ "prices_per_hour": {
+  "elevenlabs/scribe_v2": 0.22,
+  "elevenlabs/scribe_v2_medical": 0.22,
+  "elevenlabs/scribe_v2_realtime": 0.39,
+  "telnyx/deepgram": 0.3,
+  "telnyx/assemblyai": 0.3,
+  "telnyx/speechmatics": 0.21,
+  "telnyx/soniox": 0.12,
+  "telnyx/parakeet": 0.09,
+  "telnyx/whisper": 0.8999999999999999
+ },
+ "created": 1790880596.663959,
+ "note": "FLEURS audio before the telephone-level gate (raw dataset levels; en median -57 dBFS). Robustness run, not the main general result."
+}

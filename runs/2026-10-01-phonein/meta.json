@@ -1,0 +1,19 @@
+{
+ "dataset": "phonein",
+ "subset": "all",
+ "n_clips": 339,
+ "audio_seconds": 1679.34,
+ "clip_list_sha256": "c9cd0af5574cdc005e5f4b66e040703dba6605ef793c3710f530a66af022d19b",
+ "prices_per_hour": {
+  "elevenlabs/scribe_v2": 0.22,
+  "elevenlabs/scribe_v2_medical": 0.22,
+  "elevenlabs/scribe_v2_realtime": 0.39,
+  "telnyx/deepgram": 0.3,
+  "telnyx/assemblyai": 0.3,
+  "telnyx/speechmatics": 0.21,
+  "telnyx/soniox": 0.12,
+  "telnyx/parakeet": 0.09,
+  "telnyx/whisper": 0.8999999999999999
+ },
+ "created": 1790894825.240693
+}

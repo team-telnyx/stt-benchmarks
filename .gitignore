@@ -1,0 +1,14 @@
+.venv/
+data/
+__pycache__/
+*.pyc
+.env
+runs/*/audio/
+datasets/phonein/raw/
+*.wav
+*.ulaw
+
+runs/*/raw/
+runs/*/passes/
+spend/
+exports/
