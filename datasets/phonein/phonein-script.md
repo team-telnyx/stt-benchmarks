@@ -8,7 +8,7 @@ The text after the line id is the exact ground truth. Scoring ignores the spoken
 
 ## How to read
 
-1. Call the number in `phonein-status.md` from any phone. A mobile in a normal room is ideal. Speakerphone is fine too.
+1. Call the internal recording line (the number is not published in this repo) from any phone. A mobile in a normal room is ideal. Speakerphone is fine too.
 2. Wait for the beep after the greeting.
 3. For each line, say the line id first ("N one"), pause briefly, then read the line.
 4. Pause about 2 seconds between lines. In the SHORT TURNS pack, pause a full 2 seconds after every word.
