@@ -19,7 +19,7 @@ Scribe and Telnyx's engines are good at different things, so no single engine wi
 - **Nova-3 finishes its slowest turns sooner.** For the slowest 1 in 10 turns, the final transcript arrived in 0.93 s on Nova-3 and 1.32 s on Scribe v2 Realtime. Flux went the other way, at 2.36 s.
 - **Medical phone calls are close to even.** Nova-3 Medical got 16.4 words wrong per 100 and Scribe v2 Realtime got 17.3, on 90 lines. A gap that small is inside the noise for a sample this size.
 - **Scribe is more accurate on consultation audio.** On 5.2 hours of recorded consultations, Scribe v2 got 4.0 wrong words per 100 and the best Telnyx file engine, Parakeet v3, got 5.7. Streamed live, Scribe v2 Realtime got 6.1 and Nova-3 Medical got 8.5.
-- **Scribe v2 is more accurate in German, French and Turkish.** It led every Telnyx file engine in all three. Live, Telnyx's preview engine Linden-1 was ahead of Scribe v2 Realtime in French, level in Turkish, and 0.4 points behind in German.
+- **Scribe v2 is more accurate in German, French and Turkish.** It led every Telnyx file engine we tested in all three. Live, Telnyx's preview engine Linden-1 was ahead of Scribe v2 Realtime in French, level in Turkish, and 0.4 points behind in German.
 - **No engine is good at spelled names and addresses.** Across every streaming engine, between 36 and 59 words in 100 came back wrong in that set.
 
 ## What we tested
@@ -45,7 +45,7 @@ Scoring compares every transcript to a human transcript or to the read script, a
 
 ## Results
 
-Every engine here runs on Telnyx except the rows marked ElevenLabs. Linden-1 is in preview.
+Every engine here runs on Telnyx except the rows marked ElevenLabs. Linden-1 is in preview and is not in Telnyx's public model list yet. Parakeet v3 and Omi Med STT v1 return only finished transcripts, so their time to first words is the time the finished text arrives.
 
 ### Live phone calls
 
@@ -132,6 +132,7 @@ Each run writes `results.csv`, `summary.json` and a `scorecard.html` under `runs
 - The samples are small in places, with five callers, 90 medical lines and 147 short replies. Treat gaps of a point or two as ties.
 - 339 of the 375 phone lines were scored. The other 36 were set aside for a human listen.
 - The phone recordings are not published, so the phone-call track cannot be rerun from this repo. The script and scoring code are here so the method can be checked.
+- Telnyx's model docs list Nova-3 Medical as REST only. It returned live results over WebSocket in our runs, so read its streaming rows as a test result, not as a statement of supported use.
 - Prices are not in these tables.
 - Omi's direct API was also tested. It is left out of the tables because it does not run on Telnyx.
 
