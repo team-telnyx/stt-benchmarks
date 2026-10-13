@@ -138,4 +138,6 @@ Each run writes `results.csv`, `summary.json` and a `scorecard.html` under `runs
 
 ## Data and licenses
 
+The code in this repo is released under the MIT License (see `LICENSE`). The datasets keep their own licenses:
+
 PriMock57 (Papadopoulos Korfiatis, Moramarco, Sarac, Savkov, ACL 2022) is licensed CC BY 4.0, and Google FLEURS is licensed CC BY 4.0, per our test notes. The term list comes from Wikidata (CC0). The clip lists in this repo are derived from these sets.
